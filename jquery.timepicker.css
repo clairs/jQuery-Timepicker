@@ -1,0 +1,22 @@
+#hour, #minute {
+margin-right: 10px;
+float: left;
+}
+
+#timeselect{
+background: #ccc url(timeselect_bg.png) no-repeat bottom left;
+border: 1px solid #aaa;
+display: none;
+margin-top: 0;
+padding: 15px 2px 15px 10px;
+position: absolute;
+}
+
+#timepopup {
+	background-color: #fff;
+	border: 1px solid #000;
+	display: none;
+	padding: 3px;
+	position: fixed;
+	z-index: 99999;
+}

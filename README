@@ -1,0 +1,35 @@
+jQuery Timepicker v1.0.1
+------------------------
+
+Requires: jQuery 1.4.2+, jQuery UI 1.8+
+
+A simple time picker. Deliberately simple, just something to use to easily select the time without confusing
+the user
+
+Usage:
+
+HTML:
+<head>
+	<script type="text/javascript" src="/javascript/jquery.timepicker.js"></script> 
+	<link rel="stylesheet" type="text/css" href="/javascript/jquery.timepicker.css" />
+</head>
+<body>
+	<input type="text" name="element" id="element" />
+</body>
+
+
+
+JAVASCRIPT:
+Default: (5 minute step)
+$('#element').timepicker();
+
+Change the minute step intervals (eg. 1):
+$('#element').timepicker({minutestep: 1});
+
+Show timepicker between hours:
+$('#element').timepicker({minhour: 9, maxhour: 17});
+
+Include a popup with the selected time:
+$('#element').timepicker({popups: true});
+
+Of course, these settings can be used together
